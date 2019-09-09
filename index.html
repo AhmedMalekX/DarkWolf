@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dark Wolf</title>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque:300,400,500,600,700,800,900&display=swap" rel="stylesheet" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- icons -->
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <!-- for on scroll animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./css/index.css" />
+
+</head>
+
+<body>
+    <audio autoplay autostart="true" loop="true">
+        <source src="./music/bgMusic.mp3" type="audio/mpeg" loop="true" autostart="true" hidden="true">
+    </audio>
+    <!-- <embed src="./music/bgMusic.mp3" type="audio/mpeg" loop="true" autostart="true" hidden="true" /> -->
+
+    <a name="home"></a>
+    <div class="wrapper">
+        <!--------------- Hero Start --------------->
+        <div class="video-container">
+            <video playsinline autoplay loop muted id="bgvid">
+                <source src="video/videobg.mp4" type="video/mp4" />
+            </video>
+        </div>
+        <div class="header">
+            <h1>We are here for managing fund data.</h1>
+        </div>
+    </div>
+
+    <!--------------- Hero End --------------->
+
+    <!--------------- navbar starts here --------------->
+
+    <nav class="nav">
+        <span id="brand">
+            <a href="index.html">Dark Wolf</a>
+        </span>
+
+        <ul id="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#team">Our team</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div id="toggle">
+            <div class="span">menu</div>
+        </div>
+    </nav>
+
+    <div id="resize">
+        <div class="close-btn">close</div>
+
+        <ul id="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#team">Our team</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!--------------- navbar ends here --------------->
+    <div class="content">
+        <!--------------- About Section Start --------------->
+        <a name="about"></a>
+        <section class="story">
+            <div class="container-fluid">
+                <div class="section-date">
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-2 section-index wow fadeInUp">01</div>
+                        <div class="col-md-8 section-heading wow fadeInUp" data-wow-delay="0.2s">Genral presentation
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-6 section-subheading wow fadeInUp" data-wow-delay="0.3s">
+                            <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At nulla cum vel consequuntur similique incidunt excepturi!</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-6 section-info wow fadeInUp" data-wow-delay="0.4s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil beatae labore quis odio cum facere voluptatibus veniam doloribus pariatur, dolor quasi veritatis praesentium reiciendis voluptate ipsum quia omnis fuga. Debitis veniam
+                            ad dolorem doloremque et voluptates dolores fuga veritatis molestias.</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-8 more wow fadeInUp" data-wow-delay="0.4s">
+                            <button id="btn">Know More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--------------- About Section End --------------->
+        <!--------------- Services Section Start --------------->
+        <a name="services"></a>
+        <section class="services">
+            <div class="container-fluid">
+                <div class="section-date">
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-2 section-index wow fadeInUp">02</div>
+                        <div class="col-md-8 section-heading wow fadeInUp" data-wow-delay="0.2s">What We Do</div>
+                    </div>
+                    <div class="row service">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-3 md-serve-grid">
+                                <div class="icon wow fadeInUp" data-wow-delay="0.3s">
+                                    <ion-icon name="finger-print"></ion-icon>
+                                </div>
+                                <div class="icon-title wow fadeInUp" data-wow-delay="0.3s">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </div>
+                        </div>
+                        <div class="col-md-3 md-serve-grid">
+                            <div class="icon wow fadeInUp" data-wow-delay="0.3s">
+                                <ion-icon name="link"></ion-icon>
+                            </div>
+                            <div class="icon-title wow fadeInUp" data-wow-delay="0.3s">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row service">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-3 md-serve-grid">
+                            <div class="icon wow fadeInUp" data-wow-delay="0.4s">
+                                <ion-icon name="cloud-upload"></ion-icon>
+                            </div>
+                            <div class="icon-title wow fadeInUp" data-wow-delay="0.4s">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </div>
+                        </div>
+                        <div class="col-md-3 md-serve-grid">
+                            <div class="icon wow fadeInUp" data-wow-delay="0.4s">
+                                <ion-icon name="share"></ion-icon>
+                            </div>
+                            <div class="icon-title wow fadeInUp" data-wow-delay="0.4s">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--------------- Services Section End --------------->
+
+        <!--------------- Team Section Start --------------->
+        <a name="team"></a>
+        <section class="team">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-2 section-index wow fadeInUp" data-wow-delay="0.2s">03</div>
+                    <div class="col-md-8 section-heading wow fadeInUp" data-wow-delay="0.3s">Our Team</div>
+                </div>
+                <div class="row members">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-3 md-team-grid">
+                        <div class="team-member">
+                            <div class="team-img team-one wow fadeInUp" data-wow-delay="0.3s"></div>
+                        </div>
+                        <div class="team-title wow fadeInLeft" data-wow-delay="0.3s">
+                            <h5>Martin Smith</h5>
+                            <span>Founder & CEO</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 md-team-grid">
+                        <div class="team-member">
+                            <div class="team-img team-two wow fadeInRight" data-wow-delay="0.3s"></div>
+                        </div>
+                        <div class="team-title wow fadeInUp" data-wow-delay="0.3s">
+                            <h5>John Do</h5>
+                            <span>Co-Founder</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------------- Team Section End --------------->
+        <!--------------- newsletter Section Start --------------->
+        <section class="newsletter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="news-data">
+                            <div class="section-subheading wow fadeInUp" data-wow-delay="0.3s">
+                                <h1>Subscribe To Our Newslettr</h1>
+                            </div>
+                            <div class="input-group">
+                                <input type="email" class="form-control wow fadeInUp" data-wow-delay="0.3s" placeholder="Enter Your Email">
+                                <span class="input-group-btn wow fadeInUp" data-wow-delay="0.3s">
+                                    <button class="btn" type="submit">
+                                        Subscribe
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------------- newsletter Section End --------------->
+        <!--------------- Contact Section Start --------------->
+        <a name="contact"></a>
+        <section class="contact">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-2 section-index wow fadeInUp" data-wow-delay="0.2s">04</div>
+                    <div class="col-md-8 section-heading wow fadeInUp" data-wow-delay="0.2s">Contact Us</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-6 icon-title wow fadeInUp" data-wow-delay="0.3s">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus vel, cum dolor voluptate eaque nam accusantium!</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-6">
+                        <form name="contact-form" id="contact-form" method="POST">
+                            <ul>
+                                <li>
+                                    <label for="contact-name" class="wow fadeInUp" data-wow-delay="0.3s">Name :</label>
+                                    <div class="textarea wow fadeInUp" data-wow-delay="0.325s">
+                                        <input type="text" name="contact-name" id="contact-name" value="" required>
+                                    </div>
+                                </li>
+                                <br>
+                                <li>
+                                    <label for="contact-email" class="wow fadeInUp" data-wow-delay="0.3s">E-mail :</label>
+                                    <div class="textarea wow fadeInUp" data-wow-delay="0.325s">
+                                        <input type="text" name="contact-email" id="contact-email" value="" required>
+                                    </div>
+                                </li>
+                                <br>
+                                <li>
+                                    <label for="contact-project" class="wow fadeInUp" data-wow-delay="0.3s">Message :</label>
+                                    <div class="textarea wow fadeInUp" data-wow-delay="0.325s">
+                                        <textarea name="contact-project" id="contact-project" rows="6" required></textarea>
+                                    </div>
+                                </li>
+                            </ul>
+                            <button type="submit" name="contact-submit" id="contact-submit" class="send wow fadeInUp" data-wow-delay="0.35s">Send
+                                Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--------------- Contact Section End --------------->
+        <!--------------- Footer Section Start --------------->
+        <div class="footer">
+            <div class="container">
+                <div class="info">
+                    <div class="row">
+                        <div class="col-md-4" id="address">
+                            <p class="wow fadeInUp" data-wow-delay="0.1s">Workarea</p>
+                            <h4 class="wow fadeInUp" data-wow-delay="0.125s">8 Rockvilla Avenue</h4>
+                            <h4 class="wow fadeInUp" data-wow-delay="0.150s">Southaven</h4>
+                            <h4 class="wow fadeInUp" data-wow-delay="0.175s">MS 4568 856</h4>
+                            <br>
+                            <hr>
+                        </div>
+                        <div class="col-md-4" id="media">
+                            <ul>
+                                <li class="wow fadeInUp" data-wow-delay="0.1s">
+                                    <ion-icon name="logo-facebook"></ion-icon>
+                                </li>
+                                <li class="wow fadeInUp" data-wow-delay="0.125s">
+                                    <ion-icon name="logo-instagram"></ion-icon>
+                                </li>
+                                <li class="wow fadeInUp" data-wow-delay="0.150s">
+                                    <ion-icon name="logo-twitter"></ion-icon>
+                                </li>
+                                <li class="wow fadeInUp" data-wow-delay="0.175s">
+                                    <ion-icon name="logo-youtube"></ion-icon>
+                                </li>
+                            </ul>
+                            <br>
+                            <hr>
+                        </div>
+                        <div class="col-md-4" id="mai">
+                            <p class="wow fadeInUp" data-wow-delay="0.1s">Say Hello</p>
+                            <h4 class="wow fadeInUp" data-wow-delay="0.150s">contact@contact.com</h4>
+                            <br>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------------- Footer Section End --------------->
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
